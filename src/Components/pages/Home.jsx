@@ -6,7 +6,7 @@ export default function Home() {
     <div className="home">
       <div className="grid-section">
         <div className="container1">
-          <h1 className="welcome">Welcome, we are glade you are here.</h1>
+          <h1 className="welcome">Welcome, we are glad you are here.</h1>
 
           <h3 className="overview">
             Ìmótótó is a platform that focuses on healthy ecosystem through
@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container">
           <h1> Our Expertise</h1>
           <h3>
-            get rig of your waste easily using our wide network of waste
+            Get rid of your waste easily using our wide network of waste
             collectors, whenever and wherever.
           </h3>
         </div>

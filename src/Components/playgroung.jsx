@@ -1,6 +1,6 @@
 import { useState } from "react"; 
  
-export default function mpp() { 
+export default function Map() { 
   const [greeting, setGreeting] = useState({ greet: "Hello, World" }); 
   console.log(greeting, setGreeting); 
  
