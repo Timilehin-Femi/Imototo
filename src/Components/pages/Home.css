@@ -1,0 +1,20 @@
+
+.home{
+    display:flex;
+    flex-wrap: nowrap;
+    padding: 30px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+.container1{
+margin-bottom: 15px;
+}
+
+.grid-section{
+    display: grid;
+    justify-self: start;
+
+}
