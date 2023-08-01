@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter as Router, Route, Routes,   } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./Components/pages/Home";
 import ContactUs from "./Components/pages/ContactUs";
 import Services from "./Components/pages/Services";
@@ -10,10 +10,12 @@ import DumpsiteLocation from "./Components/pages/DumpsiteLocation";
 import Imw from "./Components/pages/Imw";
 import Recycle from "./Components/pages/Recycle";
 import Subscribe from "./Components/pages/Subscribe";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <Router>
+   <div>
+     <Router>
       <Navbar />
       <Routes>
         
@@ -39,6 +41,8 @@ function App() {
       
       </Routes>
     </Router>
+    <Footer/>
+   </div>
   );
 }
 

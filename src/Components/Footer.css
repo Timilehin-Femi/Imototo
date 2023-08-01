@@ -1,0 +1,181 @@
+.footer{
+    width: 100%;
+    padding-block: 2px ;
+    position: relative;
+    background-color: #003300;
+    color: white;
+}
+
+.footer-padding{
+padding: .5rem 1.5rem;
+}
+
+.footer-box{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px repeat(4, 1fr);
+    align-items: center ;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+
+
+li{
+    list-style: none;
+    line-height: 30px;
+
+}
+
+a{
+    color: grey;
+    text-decoration: wavy;
+}
+
+a:hover{
+    background-color: #002200;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+h4{
+    margin-bottom: .5rem;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+h4:hover{
+    background-color: #002200;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+
+.footer-social-info p{
+ margin: 0;
+ padding: 0;
+ font-size: 14px;
+ align-items: start;
+}
+
+.footer-social{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    justify-items: flex-start;
+    font-size: 2rem;
+
+}
+
+
+
+.footer-social a {
+    padding: 3px;
+    border-radius: 40%;
+    transition: all .3s ease-in;
+}
+
+
+.footer-social a:hover{
+    background-color: #002200;
+    color: white;
+
+    
+}
+
+.subscribe-box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #002200;
+    color: white;
+    border-radius: 5rem;
+     margin-top: 1rem;
+
+}
+
+.subscribe-box input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: white;
+    height: 30px;
+
+}
+
+.subscribe-box input::placeholder{
+    color: grey;
+}
+
+.fa-paper-plane{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #006600;
+
+
+}
+
+.subscribe-box-info{
+    margin-top: 1rem;
+}
+
+.footer-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+
+.footer-below-links{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.footer-below-links p {
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 2rem;
+    
+
+}
+
+hr{
+    color: white !important;
+    width: 100%;
+
+
+}
+
+.footer-copyright p{
+ font-size: 13px;
+ line-height: 15px;
+ color: white;
+
+}
+
+@media screen and (max-width: 844px) {
+    .footer-box{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .footer-box{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    
+}
