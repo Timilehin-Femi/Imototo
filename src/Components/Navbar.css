@@ -8,11 +8,14 @@
   font-size: 1.2rem;
 }
 
-/* .logo{
-    margin-top: 12px;
-    margin: ;
-  } */
-.navbar-logo {
+.logo{
+  height: 100px;
+  width: 200px;
+    cursor: pointer;
+    justify-self: start;
+  } 
+
+  .navbar-logo {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -20,17 +23,13 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
+} 
 
-/* .fa-firstdraft {
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-  } */
 
 .nav-menu {
-  display: flex;
-  flex-wrap: nowrap;
-  grid-template-columns: repeat(5, auto);
+  display: grid;
+  /* flex-wrap: nowrap; */
+  grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -51,11 +50,11 @@
   padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
-  background-color: #003300;
+ .nav-links:hover {
+  background-color: #afb6af;
   border-radius: 4px;
   transition: all 0.2s ease-out;
-}
+} 
 
 .fa-bars {
   color: #fff;
@@ -69,19 +68,25 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
-  .nav-item {
-    position: relative;
-  }
-
+@media (max-width: 844px) {
+  
   .navbar {
     background: linear-gradient(90deg, #004400 10%, #006600 80%);
-    height: 100px;
+    height: 90px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
   }
+
+ 
+
+  .logo{
+    cursor: pointer;
+    justify-items: start;
+
+  } 
 
   .nav-menu {
     display: flex;
@@ -95,12 +100,14 @@
     transition: all 0.5s ease;
   }
 
-  .nav-menu.active {
+  .active {
     background: #004400;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    position: absolute;
+    top: 80px;
   }
 
   .nav-links {
@@ -110,28 +117,12 @@
     display: table;
   }
 
-  .nav-links:hover {
+   .nav-links:hover {
     background-color: #003300;
     border-radius: 4px;
-  }
+  } 
 
-  .navbar-logo {
-    position: relative;
-    margin-left:10px;
-    /* transform: translate(25%, 50%); */
-    color: #fff;
-    justify-self: start;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-
-  .logo {
-    height: 200px;
-    width: 250px;
-    margin-left: 12px;
-    justify-self: start;
-  }
+  
 
   .menu-icon {
     display: block;
@@ -148,7 +139,7 @@
     font-size: 2rem;
   }
 
-  .fas fa-caret-down {
+  .fa-caret-down {
     display: none;
   }
   
@@ -180,4 +171,8 @@
   .btn {
     display: none;
   }
+}
+
+@media (max-width: 425px) {
+  
 }

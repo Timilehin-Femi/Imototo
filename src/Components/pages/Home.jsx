@@ -7,24 +7,28 @@ export default function Home() {
       <div className="grid-section">
         <div className="text-container">
           <div className="welcome-contatiner">
-            <h1 className="welcome">Welcome, we are glad you are here.</h1>
+            <h1 className="welcome"> We are glad you are here, WELCOME.</h1>
+            <h3>[Ekabo si ile ise imototo]</h3>
+            </div>
 
-            <h3 className="overview">
-              Ìmótótó is a platform that focuses on healthy ecosystem through
-              collection and proper disposal of waste. it seeks in the long run
-              to bring about waste recycling.
-            </h3>
-          </div>
+            <div>
+            <h2 className="introduction">
+              We <span>Reduce</span> Waste
+            </h2>
+            </div>
 
-          <div className="expertise-container">
-            <h1 className="expertise"> Our Expertise</h1>
-            <h3 className="expertise-info">
+          <div>
+            
+            <h4 className="introduction-info">
               Get rid of your waste easily using our wide network of waste
-              collectors, whenever and wherever. Our project is beneficial to
-              the environment and its complex ecosystem at every stage by
-              staying true to our mission to clean EKITI STATE, WE EXCEL AS AN
-              ORGANIZATION IN RESTORATION OF CONTAMINATED ECOSYSTEM.
-            </h3>
+              collectors and easy accesibility to legal dumpsite locations.
+             join us in caring for the Environment  
+            </h4>
+            <div className="buttons">
+                <button>Get Started.</button>
+                <button>Learn more</button>
+
+            </div>
           </div>
         </div>
 

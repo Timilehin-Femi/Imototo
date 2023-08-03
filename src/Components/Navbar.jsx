@@ -35,7 +35,7 @@ export default function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          <img src='./images/imototo3.png' className="logo" alt="LOGO IMAGE" height= '200px' width='250px'></img>
+          <img src='./images/imototo3.png' className="logo" alt="LOGO IMAGE" width={200} height={100}></img>
         </Link>
 
         <div className="menu-icon" onClick={handleClick}>

@@ -4,12 +4,37 @@
 }
 
 .home{
-    background-image: url(../img/pexels-chait-goli-1796727.jpg);
+    background-image:  linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/pexels-pixmike-413195.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 60% ;
+     background-size: cover;
+    background-position: 70% ;
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
 
 }
 
+.grid-section{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+
+@media (max-width: 844px) {
+    .grid-section{
+        color: white;
+        display: grid;
+         grid-template-columns: 1fr ; 
+        /* grid-template-rows: auto auto; */
+        /* row-gap: 2rem; */
+        justify-items: center;
+        align-items: center;
+       
+        margin-left: 5rem;
+    }
+    
+}
